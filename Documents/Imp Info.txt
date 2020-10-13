@@ -1,0 +1,19 @@
+URL :  https://beta.companieshouse.gov.uk/
+ID:kapil.damco@gmail.com
+Password: D@mco202!
+
+Keywords:
+
+Group of companies' accounts 
+Full group accounts
+Full accounts 
+Consolidated accounts of parent company for subsidiary company
+
+
+https://beta.companieshouse.gov.uk/company/SC351369
+
+Selector:
+
+<html app='chrome.exe' title='ETX LIMITED - Filing history (free information from Companies House)' />
+<webctrl tag='TABLE' />
+<webctrl idx='2' tableCol='4' tag='TD' />
