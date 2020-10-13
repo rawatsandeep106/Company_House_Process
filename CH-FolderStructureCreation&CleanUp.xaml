@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="CH_FolderStructureCreation_CleanUp" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="801,1249" sap2010:WorkflowViewState.IdRef="CH_FolderStructureCreation_CleanUp_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="CH_FolderStructureCreation_CleanUp" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="888,1645" sap2010:WorkflowViewState.IdRef="CH_FolderStructureCreation_CleanUp_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="21">
       <x:String>System.Activities</x:String>
@@ -49,18 +49,25 @@
       <AssemblyReference>UiPath.CV</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="CH_FolderStructureCreation_CleanUp" sap:VirtualizedContainerService.HintSize="526,1044" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="CH_FolderStructureCreation_CleanUp" sap:VirtualizedContainerService.HintSize="526,1440" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="PDFPathExist" />
       <Variable x:TypeArguments="x:Boolean" Name="FinancialDataFolderExist" />
+      <Variable x:TypeArguments="x:Boolean" Name="varOutputFolder" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
+    <ui:PathExists DisplayName="Path Exists" Exists="[varOutputFolder]" sap:VirtualizedContainerService.HintSize="484,89" sap2010:WorkflowViewState.IdRef="PathExists_3" Path="Output" PathType="Folder" />
     <ui:PathExists DisplayName="Path Exists" Exists="[PDFPathExist]" sap:VirtualizedContainerService.HintSize="484,89" sap2010:WorkflowViewState.IdRef="PathExists_1" Path="[&quot;Output\PDF Files\&quot;+Now.ToString(&quot;dd.MM.yyyy&quot;)]" PathType="Folder" />
     <ui:PathExists DisplayName="Path Exists" Exists="[FinancialDataFolderExist]" sap:VirtualizedContainerService.HintSize="484,89" sap2010:WorkflowViewState.IdRef="PathExists_2" Path="[&quot;Output\Financial Data\&quot;+Now.ToString(&quot;dd.MM.yyyy&quot;)]" PathType="Folder" />
+    <If Condition="[varOutputFolder]" DisplayName="If(folder already there)" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="If_3">
+      <If.Else>
+        <ui:CreateDirectory ContinueOnError="{x:Null}" DisplayName="Create Output Folder" sap:VirtualizedContainerService.HintSize="334,79" sap2010:WorkflowViewState.IdRef="CreateDirectory_3" Path="Output" />
+      </If.Else>
+    </If>
     <If Condition="[PDFPathExist]" DisplayName="If(folder already there)" sap:VirtualizedContainerService.HintSize="484,208" sap2010:WorkflowViewState.IdRef="If_2">
       <If.Then>
         <ui:Delete ContinueOnError="{x:Null}" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delete_2" Path="[&quot;Output\PDF Files\&quot;+Now.ToString(&quot;dd.MM.yyyy&quot;)]" />
