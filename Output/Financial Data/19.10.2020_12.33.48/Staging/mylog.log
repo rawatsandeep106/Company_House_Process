@@ -1,0 +1,93 @@
+logging statered
+Read environment variables
+Read Financial keywords
+processing of file : .\Output\PDF Files\19.10.2020\Annual_Report_1.pdf started.
+running pull_relevant_image function
+logging statered
+Read environment variables
+logging statered
+logging statered
+logging statered
+Read Financial keywords
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+Read environment variables
+logging statered
+Read environment variables
+logging statered
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+Read environment variables
+Read environment variables
+logging statered
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1     col3
+0     Revenue  226,703
+1        EBIT   56,336
+2  Net_Income   69,798
+col3:
+['226,703', '56,336', '69,798']
+text_processor function ended
+processing of file : .\Output\PDF Files\19.10.2020\Annual_Report_1.pdf ended.
+processing of file : .\Output\PDF Files\19.10.2020\Annual_Report_3.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+logging statered
+logging statered
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1       col3
+0     Revenue    780,763
+1        EBIT     65,399
+2  Net_Income  (114,489)
+col3:
+['780,763', '65,399', '(114,489)']
+text_processor function ended
+processing of file : .\Output\PDF Files\19.10.2020\Annual_Report_3.pdf ended.

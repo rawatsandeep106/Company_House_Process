@@ -1,0 +1,1856 @@
+logging statered
+Read environment variables
+Read Financial keywords
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_1.pdf started.
+running pull_relevant_image function
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+logging statered
+Read environment variables
+logging statered
+Read Financial keywords
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1     col3
+0     Revenue  226,703
+1        EBIT   56,336
+2  Net_Income   69,798
+col3:
+['226,703', '56,336', '69,798']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_1.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_3.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read Financial keywords
+logging statered
+Read Financial keywords
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+logging statered
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1       col3
+0     Revenue    780,763
+1        EBIT     65,399
+2  Net_Income  (114,489)
+col3:
+['780,763', '65,399', '(114,489)']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_3.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_4.pdf started.
+running pull_relevant_image function
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1        col3
+0     Revenue            
+1        EBIT            
+2  Net_Income  (9,622.53)
+col3:
+['', '', '(9,622.53)']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_4.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_5.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+logging statered
+logging statered
+Read Financial keywords
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1 col3
+0     Revenue     
+1        EBIT     
+2  Net_Income  3.8
+col3:
+['', '', '3.8']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_5.pdf ended.
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_14.pdf started.
+running pull_relevant_image function
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+logging statered
+logging statered
+Read Financial keywords
+Read environment variables
+logging statered
+Read Financial keywords
+Read environment variables
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+logging statered
+Read Financial keywords
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1 col3
+0     Revenue     
+1        EBIT     
+2  Net_Income    -
+col3:
+['', '', '-']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_14.pdf ended.
+waiting for nan.pdf
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_15.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1 col3
+0     Revenue     
+1        EBIT    -
+2  Net_Income    -
+col3:
+['', '-', '-']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_15.pdf ended.
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_17.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+logging statered
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1     col3
+0     Revenue         
+1        EBIT         
+2  Net_Income  (4,471)
+col3:
+['', '', '(4,471)']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_17.pdf ended.
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_21.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1        col3
+0     Revenue  39,232,322
+1        EBIT   6,108,431
+2  Net_Income   4,907,579
+col3:
+['39,232,322', '6,108,431', '4,907,579']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_21.pdf ended.
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_28.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read Financial keywords
+logging statered
+Read Financial keywords
+Read environment variables
+logging statered
+logging statered
+Read Financial keywords
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1 col3
+0     Revenue    -
+1        EBIT  0.3
+2  Net_Income     
+col3:
+['-', '0.3', '']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_28.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_30.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1                                              col3
+0     Revenue                                         6,686,296
+1        EBIT                              6426163) (4,418,627)
+2  Net_Income  3,647,436) (23,647,436) 40,175,902) (40,175,902)
+col3:
+['6,686,296', '6426163) (4,418,627)', '3,647,436) (23,647,436) 40,175,902) (40,175,902)']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_30.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_32.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+Warning : Relevant page was found invalid after further processing. No income statement found
+processing of file : Annual_Report_32.pdf ended with warnings.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_33.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read Financial keywords
+Read Financial keywords
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1         col3
+0     Revenue   13,374,586
+1        EBIT  (2,788,314)
+2  Net_Income  (2,840,739)
+col3:
+['13,374,586', '(2,788,314)', '(2,840,739)']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_33.pdf ended.
+waiting for nan.pdf
+waiting for nan.pdf
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_35.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+logging statered
+logging statered
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+Warning : Relevant page was found invalid after further processing. No income statement found
+processing of file : Annual_Report_35.pdf ended with warnings.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_36.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+logging statered
+logging statered
+logging statered
+Read Financial keywords
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1        col3
+0     Revenue  90,224,360
+1        EBIT   1,205,814
+2  Net_Income     418,931
+col3:
+['90,224,360', '1,205,814', '418,931']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_36.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_37.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+logging statered
+Read Financial keywords
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1    col3
+0     Revenue        
+1        EBIT        
+2  Net_Income  46,552
+col3:
+['', '', '46,552']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_37.pdf ended.
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_40.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read environment variables
+logging statered
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1     col3
+0     Revenue  226,703
+1        EBIT   56,336
+2  Net_Income   69,798
+col3:
+['226,703', '56,336', '69,798']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_40.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_45.pdf started.
+running pull_relevant_image function
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+logging statered
+logging statered
+logging statered
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1       col3
+0     Revenue  1,350,354
+1        EBIT     10,838
+2  Net_Income     13,483
+col3:
+['1,350,354', '10,838', '13,483']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_45.pdf ended.
+waiting for nan.pdf
+waiting for nan.pdf
+must be str, not NoneType
+processing of file : Annual_Report_49.pdf ended with errors.
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+waiting for nan.pdf
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_50.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+logging statered
+Read Financial keywords
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+logging statered
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+expected string or bytes-like object
+processing of file : Annual_Report_50.pdf ended with errors.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_51.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+logging statered
+logging statered
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1    col3
+0     Revenue  22,222
+1        EBIT     740
+2  Net_Income        
+col3:
+['22,222', '740', '']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_51.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_53.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+logging statered
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1     col3
+0     Revenue         
+1        EBIT  (4,366)
+2  Net_Income         
+col3:
+['', '(4,366)', '']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_53.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_54.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+logging statered
+Read Financial keywords
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+expected string or bytes-like object
+processing of file : Annual_Report_54.pdf ended with errors.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_55.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read Financial keywords
+logging statered
+logging statered
+Read Financial keywords
+Read environment variables
+logging statered
+logging statered
+Read Financial keywords
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1    col3
+0     Revenue  26,144
+1        EBIT   (242)
+2  Net_Income     108
+col3:
+['26,144', '(242)', '108']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_55.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_58.pdf started.
+running pull_relevant_image function
+logging statered
+Read environment variables
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1        col3
+0     Revenue  18,785,257
+1        EBIT   3,347,920
+2  Net_Income   3,083,042
+col3:
+['18,785,257', '3,347,920', '3,083,042']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_58.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_59.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+logging statered
+logging statered
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1        col3
+0     Revenue  18,454,347
+1        EBIT   1,895,985
+2  Net_Income   1,628,106
+col3:
+['18,454,347', '1,895,985', '1,628,106']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_59.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_60.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+Read environment variables
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read environment variables
+logging statered
+logging statered
+Read Financial keywords
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1                       col3
+0     Revenue                           
+1        EBIT  (1,454,577) - . (853,431)
+2  Net_Income                           
+col3:
+['', '(1,454,577) - . (853,431)', '']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_60.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_62.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read Financial keywords
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1 col3
+0     Revenue    -
+1        EBIT  184
+2  Net_Income  184
+col3:
+['-', '184', '184']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_62.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_63.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+logging statered
+Read environment variables
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read Financial keywords
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1         col3
+0     Revenue    8,823,748
+1        EBIT  (2,804,352)
+2  Net_Income             
+col3:
+['8,823,748', '(2,804,352)', '']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_63.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_64.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+logging statered
+Read Financial keywords
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+logging statered
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1     col3
+0     Revenue   32,176
+1        EBIT  (1,407)
+2  Net_Income  (1,395)
+col3:
+['32,176', '(1,407)', '(1,395)']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_64.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_68.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+Warning : Relevant page was found invalid after further processing. No income statement found
+processing of file : Annual_Report_68.pdf ended with warnings.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_69.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+logging statered
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+logging statered
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1    col3
+0     Revenue  33,639
+1        EBIT     343
+2  Net_Income   5,194
+col3:
+['33,639', '343', '5,194']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_69.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_70.pdf started.
+running pull_relevant_image function
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1        col3
+0     Revenue  11,933,167
+1        EBIT            
+2  Net_Income     670,656
+col3:
+['11,933,167', '', '670,656']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_70.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_72.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read environment variables
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1        col3
+0     Revenue  19,120,007
+1        EBIT   1,173,830
+2  Net_Income   1,097,956
+col3:
+['19,120,007', '1,173,830', '1,097,956']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_72.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_73.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read environment variables
+logging statered
+logging statered
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1        col3
+0     Revenue  34,929,333
+1        EBIT   1,881,489
+2  Net_Income     984,419
+col3:
+['34,929,333', '1,881,489', '984,419']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_73.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_75.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1    col3
+0     Revenue  10,951
+1        EBIT   1,530
+2  Net_Income   1,058
+col3:
+['10,951', '1,530', '1,058']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_75.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_76.pdf started.
+running pull_relevant_image function
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+logging statered
+Read Financial keywords
+Read environment variables
+logging statered
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1    col3
+0     Revenue  86,104
+1        EBIT     205
+2  Net_Income     628
+col3:
+['86,104', '205', '628']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_76.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_77.pdf started.
+running pull_relevant_image function
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1    col3
+0     Revenue  23,622
+1        EBIT   1,487
+2  Net_Income        
+col3:
+['23,622', '1,487', '']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_77.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_78.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+logging statered
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1    col3
+0     Revenue  35,211
+1        EBIT        
+2  Net_Income        
+col3:
+['35,211', '', '']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_78.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_79.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+Warning : Relevant page was found invalid after further processing. No income statement found
+processing of file : Annual_Report_79.pdf ended with warnings.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_84.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+expected string or bytes-like object
+processing of file : Annual_Report_84.pdf ended with errors.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_85.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+Read environment variables
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1     col3
+0     Revenue  285,194
+1        EBIT    4,740
+2  Net_Income    3,685
+col3:
+['285,194', '4,740', '3,685']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_85.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_86.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+logging statered
+Read Financial keywords
+Read environment variables
+logging statered
+logging statered
+logging statered
+logging statered
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function
+final_frame:
+         col1 col3
+0     Revenue     
+1        EBIT     
+2  Net_Income     
+col3:
+['', '', '']
+text_processor function ended
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_86.pdf ended.
+processing of file : .\Output\PDF Files\27.10.2020\Annual_Report_90.pdf started.
+running pull_relevant_image function
+logging statered
+logging statered
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+logging statered
+Read environment variables
+logging statered
+Read environment variables
+Read environment variables
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+Read environment variables
+Read Financial keywords
+logging statered
+Read environment variables
+Read environment variables
+logging statered
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+s
+Read Financial keywords
+Read Financial keywords
+Read Financial keywords
+found relevant data in pdf
+found relevant data in pdf
+found relevant data in pdf
+pull_relevant_image function ended
+running text_processor function

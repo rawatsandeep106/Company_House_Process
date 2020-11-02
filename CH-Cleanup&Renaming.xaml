@@ -7,7 +7,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>801,650</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>862,650</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>CH_Cleanup_Renaming_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -67,15 +67,9 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:InvokeCode ContinueOnError="{x:Null}" Code="Dim varOldPath As String&#xD;&#xA;Dim varNewPath As String&#xD;&#xA;varOldPath = in_OldPath&#xD;&#xA;varNewPath = in_NewPath&#xD;&#xA;&#xD;&#xA;If in_Type = &quot;Folder&quot; Then&#xD;&#xA;&#x9;System.IO.Directory.Move(varOldPath,varNewPath)&#xD;&#xA;Else&#xD;&#xA;&#x9;FileSystem.Rename(varOldPath,varNewPath)&#xD;&#xA;End If" DisplayName="Invoke code" sap:VirtualizedContainerService.HintSize="334,164" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
       <ui:InvokeCode.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_OldPath">
-          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_OldPath" />
-        </InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_NewPath">
-          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_NewPath" />
-        </InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_Type">
-          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="in_Type" />
-        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_OldPath">[in_OldPath]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_NewPath">[in_NewPath]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Type">[in_Type]</InArgument>
       </ui:InvokeCode.Arguments>
     </ui:InvokeCode>
   </Sequence>

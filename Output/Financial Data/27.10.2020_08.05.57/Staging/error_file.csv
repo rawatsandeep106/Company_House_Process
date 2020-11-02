@@ -1,0 +1,9 @@
+,File Name,Error
+0,Annual_Report_32.pdf,Warning : Relevant page was found invalid after further processing. No income statement found
+1,Annual_Report_35.pdf,Warning : Relevant page was found invalid after further processing. No income statement found
+2,Annual_Report_50.pdf,expected string or bytes-like object
+3,Annual_Report_54.pdf,expected string or bytes-like object
+4,Annual_Report_68.pdf,Warning : Relevant page was found invalid after further processing. No income statement found
+5,Annual_Report_79.pdf,Warning : Relevant page was found invalid after further processing. No income statement found
+6,Annual_Report_84.pdf,expected string or bytes-like object
+7,Annual_Report_120.pdf,expected string or bytes-like object

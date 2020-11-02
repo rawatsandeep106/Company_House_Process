@@ -1,0 +1,11 @@
+Text in report,Text in keyword file,List Type
+operating profit,operating loss/profit,EBIT
+operating profit,operating profit/loss,EBIT
+profit for the financial year,profit for the financial year after tax,net income
+total comprehensive income for the year,total comprehensive profit for the year,net income
+operating profit,operating profit/(loss),EBIT
+profit for the financial year,net loss for the financial year,net income
+profit for the financial year,net profit for the financial year,net income
+profit for the financial year,loss for the financial year,net income
+operating profit,operating (loss)/profit,EBIT
+operating profit,total operating profit,EBIT
