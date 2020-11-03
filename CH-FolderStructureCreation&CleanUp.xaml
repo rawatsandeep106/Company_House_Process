@@ -1,6 +1,6 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="CH_FolderStructureCreation_CleanUp" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="888,2141" sap2010:WorkflowViewState.IdRef="CH_FolderStructureCreation_CleanUp_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="CH_FolderStructureCreation_CleanUp" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="732,2537" sap2010:WorkflowViewState.IdRef="CH_FolderStructureCreation_CleanUp_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
-    <scg:List x:TypeArguments="x:String" Capacity="21">
+    <scg:List x:TypeArguments="x:String" Capacity="42">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
       <x:String>System.Activities.Expressions</x:String>
@@ -22,6 +22,7 @@
       <x:String>UiPath.Core</x:String>
       <x:String>UiPath.Core.Activities</x:String>
       <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -49,12 +50,13 @@
       <AssemblyReference>UiPath.CV</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="CH_FolderStructureCreation_CleanUp" sap:VirtualizedContainerService.HintSize="526,1936" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="CH_FolderStructureCreation_CleanUp" sap:VirtualizedContainerService.HintSize="526,2332" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:Boolean" Name="PDFPathExist" />
-      <Variable x:TypeArguments="x:Boolean" Name="FinancialDataFolderExist" />
+      <Variable x:TypeArguments="x:Boolean" Name="varPDFPathExist" />
+      <Variable x:TypeArguments="x:Boolean" Name="varFinancialDataFolderExist" />
       <Variable x:TypeArguments="x:Boolean" Name="varOutputFolder" />
       <Variable x:TypeArguments="x:Boolean" Name="varErrorFolder" />
+      <Variable x:TypeArguments="x:Boolean" Name="varInputDateFolderExist" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -63,8 +65,9 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:PathExists DisplayName="Path Exists" Exists="[varOutputFolder]" sap:VirtualizedContainerService.HintSize="484,89" sap2010:WorkflowViewState.IdRef="PathExists_3" Path="Output" PathType="Folder" />
     <ui:PathExists DisplayName="Path Exists" Exists="[varErrorFolder]" sap:VirtualizedContainerService.HintSize="484,89" sap2010:WorkflowViewState.IdRef="PathExists_4" Path="Error" PathType="Folder" />
-    <ui:PathExists DisplayName="Path Exists" Exists="[PDFPathExist]" sap:VirtualizedContainerService.HintSize="484,89" sap2010:WorkflowViewState.IdRef="PathExists_1" Path="[&quot;Output\PDF Files\&quot;+Now.ToString(&quot;dd.MM.yyyy&quot;)]" PathType="Folder" />
-    <ui:PathExists DisplayName="Path Exists" Exists="[FinancialDataFolderExist]" sap:VirtualizedContainerService.HintSize="484,89" sap2010:WorkflowViewState.IdRef="PathExists_2" Path="[&quot;Output\Financial Data\&quot;+Now.ToString(&quot;dd.MM.yyyy&quot;)]" PathType="Folder" />
+    <ui:PathExists DisplayName="Path Exists" Exists="[varPDFPathExist]" sap:VirtualizedContainerService.HintSize="484,89" sap2010:WorkflowViewState.IdRef="PathExists_1" Path="[&quot;Output\PDF Files\&quot;+Now.ToString(&quot;dd.MM.yyyy&quot;)]" PathType="Folder" />
+    <ui:PathExists DisplayName="Path Exists" Exists="[varFinancialDataFolderExist]" sap:VirtualizedContainerService.HintSize="484,89" sap2010:WorkflowViewState.IdRef="PathExists_2" Path="[&quot;Output\Financial Data\&quot;+Now.ToString(&quot;dd.MM.yyyy&quot;)]" PathType="Folder" />
+    <ui:PathExists DisplayName="Path Exists" Exists="[varInputDateFolderExist]" sap:VirtualizedContainerService.HintSize="484,89" sap2010:WorkflowViewState.IdRef="PathExists_5" Path="[&quot;Input\&quot;+Now.ToString(&quot;dd.MM.yyyy&quot;)]" PathType="Folder" />
     <If Condition="[varErrorFolder]" DisplayName="If(folder already there)" sap:VirtualizedContainerService.HintSize="484,208" sap2010:WorkflowViewState.IdRef="If_4">
       <If.Then>
         <ui:Delete ContinueOnError="{x:Null}" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delete_3" Path="Error" />
@@ -75,15 +78,20 @@
         <ui:CreateDirectory ContinueOnError="{x:Null}" DisplayName="Create Output Folder" sap:VirtualizedContainerService.HintSize="334,79" sap2010:WorkflowViewState.IdRef="CreateDirectory_3" Path="Output" />
       </If.Else>
     </If>
-    <If Condition="[PDFPathExist]" DisplayName="If(folder already there)" sap:VirtualizedContainerService.HintSize="484,208" sap2010:WorkflowViewState.IdRef="If_2">
+    <If Condition="[varPDFPathExist]" DisplayName="If(folder already there)" sap:VirtualizedContainerService.HintSize="484,208" sap2010:WorkflowViewState.IdRef="If_2">
       <If.Then>
         <ui:Delete ContinueOnError="{x:Null}" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delete_2" Path="[&quot;Output\PDF Files\&quot;+Now.ToString(&quot;dd.MM.yyyy&quot;)]" />
       </If.Then>
     </If>
-    <If Condition="[FinancialDataFolderExist]" DisplayName="If(folder already there)" sap:VirtualizedContainerService.HintSize="484,208" sap2010:WorkflowViewState.IdRef="If_1">
+    <If Condition="[varFinancialDataFolderExist]" DisplayName="If(folder already there)" sap:VirtualizedContainerService.HintSize="484,208" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Then>
         <ui:Delete ContinueOnError="{x:Null}" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delete_1" Path="[&quot;Output\Financial Data\&quot;+Now.ToString(&quot;dd.MM.yyyy&quot;)]" />
       </If.Then>
+    </If>
+    <If Condition="[varInputDateFolderExist]" DisplayName="If(folder already there)" sap:VirtualizedContainerService.HintSize="484,227" sap2010:WorkflowViewState.IdRef="If_5">
+      <If.Else>
+        <ui:CreateDirectory ContinueOnError="{x:Null}" DisplayName="Create Input-Date Folder" sap:VirtualizedContainerService.HintSize="334,79" sap2010:WorkflowViewState.IdRef="CreateDirectory_6" Path="[&quot;Input\&quot;+Now.ToString(&quot;dd.MM.yyyy&quot;)]" />
+      </If.Else>
     </If>
     <ui:CreateDirectory ContinueOnError="{x:Null}" DisplayName="Create Error Folder" sap:VirtualizedContainerService.HintSize="484,79" sap2010:WorkflowViewState.IdRef="CreateDirectory_5" Path="Error" />
     <ui:CreateDirectory ContinueOnError="{x:Null}" DisplayName="Create Date Folder in PDF File Folder" sap:VirtualizedContainerService.HintSize="484,79" sap2010:WorkflowViewState.IdRef="CreateDirectory_2" Path="[&quot;Output\PDF Files\&quot;+Now.ToString(&quot;dd.MM.yyyy&quot;)]" />
